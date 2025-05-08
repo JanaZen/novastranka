@@ -163,7 +163,7 @@
     justify-content: center;
     justify-content: flex-start;
     width: 375px;
-   
+    height: 290px;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
    background-color: #121a1d; 
@@ -180,7 +180,7 @@
         justify-content: center;
         justify-content: flex-start;
         width: 375px;
-        
+        height: 309px;
         border-radius: var(--main-radius);
         padding-top: var(--main-padding);
      background-color: #121a1d;
@@ -231,11 +231,12 @@
       }
       
       img {
-      justify-content: flex-start;
+      
       height: 309px;
       width: 300px;
-      padding-top: 5px;
-        
+  padding-bottom: 150px;
+  
+      
         }
         
       }
