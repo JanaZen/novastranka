@@ -143,11 +143,10 @@
 
           
             display:grid;
-            grid-template-columns: 0.3fr;
-            grid-template-rows: 1fr;
+            grid-template-columns: 1fr;
             grid-template-areas:
             "content2" 
-            "content1"
+            
           }
 
       
