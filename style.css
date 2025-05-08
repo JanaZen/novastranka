@@ -1,7 +1,7 @@
 :root {
 
     --main-radius:5px;
-    --main-padding:5px;
+    --main-padding:40px;
   
   }
 
@@ -21,7 +21,7 @@
 
   body {
 
-    background-color: pink;
+    background: linear-gradient( #63577F, #F26419 );
   }
 
 
@@ -58,7 +58,7 @@
 
         img {
 
-          height: 80vh;
+          height: 75vh;
           padding-top: 10vh;
           
         
@@ -144,7 +144,7 @@
           
             display:grid;
             grid-template-columns: 1fr;
-            grid-template-rows: 1fr;
+            grid-template-rows: 0.3fr;
             grid-template-areas:
             "content2" 
             "content1"
@@ -163,7 +163,7 @@
     justify-content: center;
     justify-content: flex-start;
     width: 375px;
-    height: 400px;
+    height: 290px;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
    background-color: #121a1d; 
@@ -204,7 +204,7 @@
          
           font-weight: 250;
           font-size: 19px;
-          margin-top: 15px;
+          margin-top: 10px;
          
          }
         
