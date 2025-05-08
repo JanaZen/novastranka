@@ -139,11 +139,61 @@
 @media only screen and (max-width: 390px) {
 
 
+
+  h1 {
+  
+    font-weight: 450;
+    font-size: 45px;
+    
+    margin-top: 350px;
+    
+   
+  }
+  
+  h2 {
+   
+    font-weight: 150;
+    font-size: 30.5px;
+   
+   margin-top: -45px;
+  
+  
+  }
+  
+  a {
+    font-size: 40px;
+    text-decoration: none;
+   
+  }
+
+  #about {
+
+    grid-area: content1;
+  
+    margin-bottom: 170px;
+  
+}
+
+  #portfolio {
+
+grid-area: content1;
+
+margin-top: -190px;
+
+}
+
+
+
+
+
+
+
+
   img {
 
 
     grid-area: content2;
-    height: 150px;
+    height: 50px;
     margin-bottom: 50px;
 
   }
