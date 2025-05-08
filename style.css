@@ -230,7 +230,8 @@
       
       img {
       
-      
+      height: 309px;
+      width: 300px;
           grid-area: content2;
           margin-top: 10px;
           margin-left:3px;
