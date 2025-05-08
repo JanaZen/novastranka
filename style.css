@@ -179,6 +179,7 @@
         justify-content: center;
         justify-content: flex-start;
         width: 375px;
+        height: 315px;
         border-radius: var(--main-radius);
         padding-top: var(--main-padding);
      background-color: #121a1d;
@@ -201,8 +202,8 @@
         h2 {
          
           font-weight: 250;
-          font-size: 20px;
-          margin-top: 20px;
+          font-size: 19px;
+          margin-top: 15px;
          
          }
         
