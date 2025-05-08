@@ -180,6 +180,7 @@
         justify-content: center;
         justify-content: flex-start;
         width: 375px;
+        height: fit-content;
         border-radius: var(--main-radius);
         padding-top: var(--main-padding);
      background-color: #121a1d;
@@ -192,25 +193,22 @@
 
         h1 {
   
-          grid-area: content1;
           font-weight: 400;
           font-size: 28px;
-         
+          margin-top: 10px;
           
          
         }
         
         h2 {
-          grid-area: content1;
+         
           font-weight: 250;
           font-size: 20px;
-         
+          margin-top: 20px;
          
          }
         
         a {
-          
-          grid-area: content1;
           font-size: 20px;
           text-decoration: none;
          
