@@ -179,6 +179,7 @@
         justify-content: center;
         justify-content: flex-start;
         width: 375px;
+        height: fit-content;
         border-radius: var(--main-radius);
         padding-top: var(--main-padding);
      background-color: #121a1d;
