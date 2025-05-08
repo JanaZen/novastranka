@@ -139,66 +139,6 @@
 @media only screen and (max-width: 390px) {
 
 
-
-  h1 {
-  
-    font-weight: 250;
-    font-size: 22px;
-    
-    margin-top: 50px;
-    
-   
-  }
-  
-  h2 {
-   
-    font-weight: 100;
-    font-size: 20px;
-   
-  
-  
-  }
-  
-  a {
-    font-size: 20px;
-    text-decoration: none;
-   
-  }
-
-  #about {
-
-    grid-area: content1;
-  
-    margin-bottom: 170px;
-  
-}
-
-  #portfolio {
-
-grid-area: content1;
-
-margin-top: -190px;
-
-}
-
-
-
-
-
-
-
-
-  img {
-
-
-    grid-area: content2;
-    height: 250px;
-    margin-bottom: 50px;
-
-  }
-
-       
-
           .container {
 
           
@@ -222,7 +162,7 @@ margin-top: -190px;
     align-items: center;
     justify-content: center;
     justify-content: flex-start;
-    width: 370px;
+    width: 375px;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
    background-color: #121a1d; 
@@ -238,7 +178,7 @@ margin-top: -190px;
         align-items: center;
         justify-content: center;
         justify-content: flex-start;
-        width: 370px;
+        width: 375px;
         border-radius: var(--main-radius);
         padding-top: var(--main-padding);
      background-color: #121a1d;
@@ -250,7 +190,53 @@ margin-top: -190px;
       }
 
           
-          
+      h1 {
+  
+        font-weight: 350;
+        font-size: 28px;
+        
+        margin-top: 50px;
+        
+       
+      }
+      
+      h2 {
+       
+        font-weight: 100;
+        font-size: 20px;
+       
+       }
+      
+      a {
+        font-size: 20px;
+        text-decoration: none;
+       
+      }
+    
+      #about {
+    
+        grid-area: content1;
+      
+        margin-bottom: 170px;
+      
+    }
+    
+      #portfolio {
+    
+    grid-area: content1;
+    
+    margin-top: -190px;
+    
+    }
+    
+    img {
+    
+    
+        grid-area: content2;
+        height: 400px;
+        margin-bottom: 10px;
+    
+      }
 
 
         
