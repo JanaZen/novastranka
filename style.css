@@ -132,10 +132,11 @@
             "content2" 
             "content1"
           }
+
         }
 
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 390px) {
 
        
 
@@ -160,7 +161,7 @@
     align-items: center;
     justify-content: center;
     justify-content: flex-start;
-    width: 430px;
+    width: 370px;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
    background-color: #121a1d; 
