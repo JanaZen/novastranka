@@ -179,7 +179,6 @@
         justify-content: center;
         justify-content: flex-start;
         width: 375px;
-        height: fit-content;
         border-radius: var(--main-radius);
         padding-top: var(--main-padding);
      background-color: #121a1d;
@@ -233,9 +232,9 @@
       
       height: 309px;
       width: 300px;
-          grid-area: content2;
-          margin-top: 10px;
-          margin-left:3px;
+      grid-area: content2;
+      margin-bottom: 50px;
+      margin-left:3px;
       
         }
         
