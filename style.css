@@ -195,7 +195,7 @@
 @media only screen and (max-width: 390px) {
 
   .container {
-    height: 95vh;
+    height: 90vh;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     grid-template-areas:
@@ -215,6 +215,10 @@
   #content1 {
    height: 190px;
   }
+
+   #content2 {
+   height: 220px;
+  }
   
 
   h1 {
@@ -225,8 +229,8 @@
 
   h2 {
     font-weight: 250;
-    font-size: 21px;
-    margin-top: -30px;
+    font-size: 2px;
+    margin-top: -28px;
   }
 
   a {
