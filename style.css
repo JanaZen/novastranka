@@ -200,7 +200,7 @@
 @media only screen and (max-width: 414px) {
 
   .container {
-    height: 90vh;
+    height: 80vh;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     grid-template-areas:
@@ -247,7 +247,7 @@
   }
 
   img {
-    max-height: 45vh; /* upravte podle potřeby */
+    max-height: 48vh; /* upravte podle potřeby */
     width: auto;
     
   }
