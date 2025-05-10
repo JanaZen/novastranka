@@ -172,9 +172,8 @@
   }
 
   img {
-    max-height: 50vh; /* upravte podle potřeby */
-    width: auto;
-    padding-bottom: 10px;
+    max-height: 30vh; /* upravte podle potřeby */
+    width: auto; 
   }
 }
      
