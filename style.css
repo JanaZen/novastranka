@@ -159,6 +159,14 @@
 
  #content1 {
    height: 250px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+
+   #content2 {
+   
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
   }
 
  
@@ -210,6 +218,14 @@
 
  #content1 {
    height: 250px;
+     border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+
+   #content2 {
+   
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
   }
 
  
@@ -266,6 +282,14 @@
 
   #content1 {
    height: 190px;
+      border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+
+   #content2 {
+   
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
   }
   
 
