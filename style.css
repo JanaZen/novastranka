@@ -225,7 +225,7 @@
 
   h2 {
     font-weight: 250;
-    font-size: 22px;
+    font-size: 18px;
     margin-top: -28px;
   }
 
@@ -234,7 +234,7 @@
   }
 
   img {
-    max-height: 47vh; /* upravte podle potřeby */
+    max-height: 45vh; /* upravte podle potřeby */
     width: auto;
   }
 }
