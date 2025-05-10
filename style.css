@@ -141,7 +141,7 @@
 @media only screen and (max-width: 768px) {
 
   .container {
-    height: 100vh;
+    height: 105vh;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     grid-template-areas:
@@ -185,6 +185,58 @@
     
   }
 }
+
+
+
+
+@media only screen and (max-width: 414px) {
+
+  .container {
+    height: 90vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "content2"
+      "content1";
+  }
+
+  #content1, #content2 {
+    width: 100%;
+    max-width: 414px;
+   border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    background-color: #121a1d;
+  }
+
+ #content1 {
+   height: 250px;
+  }
+
+ 
+
+  h1 {
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 10px;
+  }
+
+  h2 {
+    font-weight: 250;
+    font-size: 20px;
+    margin-top: -30px;
+  }
+
+  a {
+    font-size: 32px;
+  }
+
+  img {
+    max-height: 60vh; /* upravte podle potřeby */
+    width: auto;
+    
+  }
+}
+
 
 
 
