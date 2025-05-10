@@ -195,6 +195,7 @@
 @media only screen and (max-width: 390px) {
 
   .container {
+    height: 95vh;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     grid-template-areas:
@@ -212,20 +213,20 @@
   }
 
   #content1 {
-   height: 200px;
+   height: 150px;
   }
   
 
   h1 {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 32px;
     margin-top: 10px;
   }
 
   h2 {
     font-weight: 250;
     font-size: 19px;
-    margin-top: -35px;
+    margin-top: -30px;
   }
 
   a {
@@ -233,7 +234,7 @@
   }
 
   img {
-    max-height: 50vh; /* upravte podle potřeby */
+    max-height: 47vh; /* upravte podle potřeby */
     width: auto;
   }
 }
