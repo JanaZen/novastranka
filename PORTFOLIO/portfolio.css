@@ -110,8 +110,8 @@
 
   .carousel-container {
     position: relative;
-    width: 550px; /* upravte podle potřeby */
-    height: 550px;
+    width: 1400px; /* upravte podle potřeby */
+    height: 500px;
     margin: 0 auto;
     overflow: hidden;
     border-radius: var(--main-radius);
@@ -124,16 +124,19 @@
     display: flex;
      align-items: center;
     justify-content: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    gap: 0.2rem;
     transition: transform 0.5s ease-in-out;
   }
 
   .slide {
-    min-width: 100%;
+    min-width: calc(100% / 3);
     /* Ujistěte se, že obrázky zabírají plochu */
   }
 
   img {
-        height: 550px;
+        height: 450px;
         display:flex;
         flex-direction: row;
         justify-content: center;
