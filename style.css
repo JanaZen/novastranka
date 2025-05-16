@@ -274,6 +274,8 @@
    height: 250px;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
   }
 
    #content2 {
@@ -301,8 +303,9 @@
   }
 
   img {
-    max-height: 60vh; /* upravte podle potřeby */
+    max-height: 55vh; /* upravte podle potřeby */
     width: auto;
+    margin-top: 2rem;
     
   }
 }
@@ -316,7 +319,7 @@
     display:grid;
     height: 90vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 0.3fr;
+    grid-template-rows: 1fr 1fr 0.3fr;
     grid-template-areas:
     "content2" 
     "content1"
@@ -326,20 +329,25 @@
 
   #content1, #content2 {
     width: 100%;
-    max-width: 768px;
+    max-width: 585px;
    border-radius: var(--main-radius);
     padding-top: var(--main-padding);
     background-color: #121a1d;
   }
 
  #content1 {
-   height: 250px;
+    
+    height: 480px;
+    width: auto;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
   }
 
    #content2 {
-   
+    
+    width: auto;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
@@ -363,8 +371,9 @@
   }
 
   img {
-    max-height: 60vh; /* upravte podle potřeby */
+    max-height: 40vh; /* upravte podle potřeby */
     width: auto;
+    margin-top: 3rem;
     
   }
 }
@@ -398,18 +407,20 @@
  #content1 {
    
    width: auto;
-   height: 450px;
+   height: 520px;
 
-   border-top-right-radius: 0px;
-   border-top-left-radius: 0px;
-
-   border-bottom-right-radius: 0px;
-   border-bottom-left-radius: 0px;
-  }
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  
+  
+}
 
    #content2 {
    
-      height: auto;
+      height: 400px;
+      width: auto;
 
     
     border-bottom-right-radius: 0px;
@@ -436,7 +447,7 @@
   }
 
   img {
-    max-height: 35vh; /* upravte podle potřeby */
+    max-height: 32vh; /* upravte podle potřeby */
     margin-top: 5rem;
     
   }
@@ -445,16 +456,12 @@
 
 
 
-
-
-
-
 @media only screen and (max-width: 390px) {
 
   .container {
-    height: 92vh;
+    height: 89vh;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 1fr 1fr 0.3;
     grid-template-areas:
       "content2"
       "content1"
@@ -463,7 +470,7 @@
 
   #content1, #content2 {
     width: 100%;
-    max-width: 375px;
+    max-width: 395px;
     height: auto;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -471,13 +478,18 @@
   }
 
   #content1 {
-   height: 190px;
-      border-top-right-radius: 0px;
-    border-top-left-radius: 0px;
+   
+   height: 520px;
+   border-top-right-radius: 0px;
+   border-top-left-radius: 0px;
+   border-bottom-right-radius: 0px;
+   
+   border-bottom-left-radius: 0px;
   }
 
    #content2 {
    
+    height: auto;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
@@ -485,13 +497,13 @@
 
   h1 {
     font-weight: 400;
-    font-size: 32px;
+    font-size: 29px;
     margin-top: 10px;
   }
 
   h2 {
     font-weight: 250;
-    font-size: 21px;
+    font-size: 20px;
     margin-top: -28px;
   }
  
@@ -500,11 +512,73 @@
   }
 
   img {
-    max-height: 45vh; /* upravte podle potřeby */
+    max-height: 30vh; /* upravte podle potřeby */
     width: auto;
   }
 }
      
+
+
+
+@media only screen and (max-width: 360px) {
+
+  .container {
+    height: 89vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 0.3;
+    grid-template-areas:
+      "content2"
+      "content1"
+      "footer";
+  }
+
+  #content1, #content2 {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    background-color: #121a1d;
+  }
+
+  #content1 {
+   
+    
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+   #content2 {
+   
+    height: 550px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  
+
+  h1 {
+    font-weight: 400;
+    font-size: 29px;
+    margin-top: 10px;
+  }
+
+  h2 {
+    font-weight: 250;
+    font-size: 20px;
+    margin-top: -28px;
+  }
+ 
+  a {
+    font-size: 28px;
+  }
+
+  img {
+    max-height: 30vh; /* upravte podle potřeby */
+    width: auto;
+  }
+}
 
 
         
