@@ -252,7 +252,7 @@
   .container {
             
     display:grid;
-    height: 94vh;
+    height: 92vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 0.3fr;
     grid-template-areas:
@@ -392,7 +392,7 @@
  
  
     display:grid;
-    height: 93vh;
+    height: 90vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 0,3fr;
     grid-template-areas:
@@ -412,7 +412,7 @@
  #content1 {
    
    width: auto;
-   height: 400px;
+   height: 360px;
 
   border-top-right-radius: 0px;
   border-top-left-radius: 0px;
@@ -424,7 +424,7 @@
 
    #content2 {
    
-      height: 380px;
+      height: 365px;
       width: auto;
 
     
@@ -436,19 +436,19 @@
 
   h1 {
     font-weight: 400;
-    font-size: 34px;
+    font-size: 30px;
     margin-top: 10px;
   }
 
   h2 {
     font-weight: 250;
-    font-size: 22px;
+    font-size: 20px;
     margin-top: -30px;
   }
 
 
   a {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   img {
@@ -464,7 +464,7 @@
 @media only screen and (max-width: 390px) {
 
   .container {
-    height: 93vh;
+    height: 90vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 0.3;
     grid-template-areas:
@@ -484,7 +484,7 @@
 
   #content1 {
    
-   height: 450px;
+   height: 350px;
    border-top-right-radius: 0px;
    border-top-left-radius: 0px;
    border-bottom-right-radius: 0px;
@@ -494,7 +494,7 @@
 
    #content2 {
    
-    height: 400px;
+    height: 380px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
@@ -502,18 +502,18 @@
 
   h1 {
     font-weight: 400;
-    font-size: 29px;
+    font-size: 26px;
     margin-top: 10px;
   }
 
   h2 {
     font-weight: 250;
-    font-size: 20px;
-    margin-top: -28px;
+    font-size: 18px;
+    margin-top: -24px;
   }
  
   a {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   img {
@@ -528,7 +528,7 @@
 @media only screen and (max-width: 360px) {
 
   .container {
-    height: 91vh;
+    height: 90vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 0.3;
     grid-template-areas:
@@ -548,7 +548,7 @@
 
   #content1 {
    
-    height: 320px;
+    height: 360px;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -557,7 +557,7 @@
 
    #content2 {
    
-    height: 290px;
+    height: 390px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
@@ -644,7 +644,7 @@ footer {
   }
  
   a {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   img {
@@ -652,5 +652,67 @@ footer {
     width: auto;
   }
 }
+
+
+@media only screen and (max-width: 300px) {
+
+  .container {
+    height: 90vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 0.3;
+    grid-template-areas:
+      "content2"
+      "content1"
+      "footer";
+  }
+
+  #content1, #content2 {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    background-color: #121a1d;
+  }
+
+  #content1 {
+   
+    height: 300px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+   #content2 {
+    
+    height: 310px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  
+
+  h1 {
+    font-weight: 400;
+    font-size: 23px;
+    margin-top: 10px;
+  }
+
+  h2 {
+    font-weight: 250;
+    font-size: 16px;
+    margin-top: -23px;
+  }
+ 
+  a {
+    font-size: 24px;
+  }
+
+  img {
+    max-height: 30vh; /* upravte podle potřeby */
+    width: auto;
+  }
+}
+
 
         
