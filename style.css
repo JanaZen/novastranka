@@ -271,7 +271,9 @@
   }
 
  #content1 {
-   height: 250px;
+    
+    width: auto;
+    height: 300px;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -279,7 +281,9 @@
   }
 
    #content2 {
-   
+    
+    width: auto;
+    height: 470px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
@@ -337,7 +341,7 @@
 
  #content1 {
     
-    height: 420px;
+    height: 350px;
     width: auto;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
@@ -347,6 +351,7 @@
 
    #content2 {
     
+    height: 410px;
     width: auto;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -407,7 +412,7 @@
  #content1 {
    
    width: auto;
-   height: 450px;
+   height: 400px;
 
   border-top-right-radius: 0px;
   border-top-left-radius: 0px;
@@ -419,7 +424,7 @@
 
    #content2 {
    
-      height: 400px;
+      height: 380px;
       width: auto;
 
     
@@ -523,7 +528,7 @@
 @media only screen and (max-width: 360px) {
 
   .container {
-    height: 93vh;
+    height: 91vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 0.3;
     grid-template-areas:
@@ -543,7 +548,7 @@
 
   #content1 {
    
-    height: 400px;
+    height: 320px;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -552,7 +557,7 @@
 
    #content2 {
    
-    height: 442px;
+    height: 290px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
@@ -560,18 +565,18 @@
 
   h1 {
     font-weight: 400;
-    font-size: 29px;
+    font-size: 22px;
     margin-top: 10px;
   }
 
   h2 {
     font-weight: 250;
-    font-size: 20px;
-    margin-top: -28px;
+    font-size: 15px;
+    margin-top: -21px;
   }
  
   a {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   img {
@@ -591,7 +596,7 @@ footer {
 @media only screen and (max-width: 320px) {
 
   .container {
-    height: 85vh;
+    height: 90vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 0.3;
     grid-template-areas:
@@ -611,7 +616,7 @@ footer {
 
   #content1 {
    
-    height: 240px;
+    height: 300px;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -620,7 +625,7 @@ footer {
 
    #content2 {
     
-    height: 240px;
+    height: 310px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
@@ -628,14 +633,14 @@ footer {
 
   h1 {
     font-weight: 400;
-    font-size: 29px;
+    font-size: 23px;
     margin-top: 10px;
   }
 
   h2 {
     font-weight: 250;
-    font-size: 20px;
-    margin-top: -28px;
+    font-size: 16px;
+    margin-top: -23px;
   }
  
   a {
