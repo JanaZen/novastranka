@@ -9,7 +9,7 @@
 .container {
   
     display:grid;
-    height: 100vh;
+    height: 96vh;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       
@@ -36,9 +36,9 @@
     justify-content: flex-start;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
+    border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
-    border-top-right-radius: 0px;
     background-color: #121a1d; 
 
     }
@@ -46,18 +46,18 @@
     #content2 {
     
     
-        grid-area: content2;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        justify-content: flex-start;
-        border-radius: var(--main-radius);
-        padding-top: var(--main-padding);
-        border-bottom-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-        border-top-left-radius: 0px;
-        background-color: #121a1d;
+    grid-area: content2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: flex-start;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: #121a1d;
     
         }
 
@@ -87,8 +87,8 @@
 
         img {
 
-          height: 700px;
-          padding-top: 10vh;
+          height: 650px;
+          padding-top: 12vh;
           
         
         }
@@ -96,11 +96,10 @@
 
         h1 {
           font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-            Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
           color: #a5a6a2;
           font-weight: 450;
           font-size: 45px;
-          
           margin-top: 350px;
           
          
@@ -109,16 +108,28 @@
         h2 {
           grid-area: content1;
           font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-            Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
           color: #a5a6a2;
           font-weight: 150;
           font-size: 30.5px;
-         
-         margin-top: -45px;
+          margin-top: -45px;
         
         
         }
         
+        h5 {
+
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+
+          h3 {
+
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: aqua;
+        font-size: 13px;
+
+        }
         a {
           font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
             Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -155,27 +166,100 @@
           .container {
 
             display:grid;
-            height: 200vh;
+            height: 90vh;
             grid-template-columns: 1fr;
-            grid-template-rows: 1fr;
+            grid-template-rows: 1fr 0.3fr;
             grid-template-areas:
             "content2" 
             "content1"
+            "footer";
           }
 
+
+            #content1, #content2 {
+            width: 100%;
+            max-width: 1200px;
+            border-radius: var(--main-radius);
+            padding-top: var(--main-padding);
+            background-color: #121a1d;
+  }
+
+ #content1 {
+   width: auto;
+   height: auto;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+     border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+   #content2 {
+    
+    width: auto;
+    height: auto;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+ 
+
+  h1 {
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 10px;
+  }
+
+  h2 {
+    font-weight: 250;
+    font-size: 25px;
+    margin-top: -35px;
+  }
+
+  a {
+    font-size: 32px;
+  }
+
+  img {
+    max-height: 60vh; 
+    width: auto;
+    padding-top: 0;
+    
+  }
+
+  footer {
+
+     width: auto; 
+     height: auto;
+     padding-top: 1rem;
+  }
         }
 
+
+
+
+
+
+
+
+
+
+
+      
 
 
 @media only screen and (max-width: 768px) {
 
   .container {
-    height: 105vh;
+            
+    display:grid;
+    height: 90vh;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: 1fr 0.3fr;
     grid-template-areas:
-      "content2"
-      "content1";
+    "content2" 
+    "content1"
+    "footer";
+
   }
 
   #content1, #content2 {
@@ -229,14 +313,16 @@
 @media only screen and (max-width: 414px) {
 
   .container {
-    height: 100vh;
+ 
+ 
+    display:grid;
+    height: 90vh;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 1fr 0.3fr;
     grid-template-areas:
-      "content2"
-      "content1"
-      "footer";
-
+    "content2" 
+    "content1"
+    "footer";
   }
 
   #content1, #content2 {
@@ -248,9 +334,14 @@
   }
 
  #content1 {
-   height: 200px;
-     border-top-right-radius: 0px;
-    border-top-left-radius: 0px;
+   
+   width: auto;
+
+   border-top-right-radius: 0px;
+   border-top-left-radius: 0px;
+
+   border-bottom-right-radius: 0px;
+   border-bottom-left-radius: 0px;
   }
 
    #content2 {
@@ -273,13 +364,13 @@
     margin-top: -30px;
   }
 
+
   a {
     font-size: 32px;
   }
 
   img {
-    max-height: 42vh; /* upravte podle potřeby */
-    width: auto;
+    max-height: 35vh; /* upravte podle potřeby */
     
   }
 }
@@ -296,10 +387,11 @@
   .container {
     height: 92vh;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto;
     grid-template-areas:
       "content2"
-      "content1";
+      "content1"
+      "footer";
   }
 
   #content1, #content2 {
