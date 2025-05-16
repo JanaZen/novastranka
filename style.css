@@ -166,7 +166,7 @@
           .container {
 
             display:grid;
-            height: 90vh;
+            height: 94vh;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 0.3fr;
             grid-template-areas:
@@ -252,7 +252,7 @@
   .container {
             
     display:grid;
-    height: 90vh;
+    height: 94vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 0.3fr;
     grid-template-areas:
@@ -407,7 +407,7 @@
  #content1 {
    
    width: auto;
-   height: 520px;
+   height: 500px;
 
   border-top-right-radius: 0px;
   border-top-left-radius: 0px;
@@ -470,7 +470,7 @@
 
   #content1, #content2 {
     width: 100%;
-    max-width: 395px;
+    max-width: 390px;
     height: auto;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -479,7 +479,7 @@
 
   #content1 {
    
-   height: 520px;
+   height: 450px;
    border-top-right-radius: 0px;
    border-top-left-radius: 0px;
    border-bottom-right-radius: 0px;
@@ -489,7 +489,7 @@
 
    #content2 {
    
-    height: auto;
+    height: 400px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
@@ -523,7 +523,7 @@
 @media only screen and (max-width: 360px) {
 
   .container {
-    height: 89vh;
+    height: 95vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 0.3;
     grid-template-areas:
@@ -543,7 +543,7 @@
 
   #content1 {
    
-    
+    height: 442px;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -552,7 +552,7 @@
 
    #content2 {
    
-    height: 550px;
+    height: 442px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
@@ -580,5 +580,72 @@
   }
 }
 
+footer {
+
+    grid-area: footer;
+    height: 1rem;
+
+}
+
+
+@media only screen and (max-width: 320px) {
+
+  .container {
+    height: 85vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 0.3;
+    grid-template-areas:
+      "content2"
+      "content1"
+      "footer";
+  }
+
+  #content1, #content2 {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    background-color: #121a1d;
+  }
+
+  #content1 {
+   
+    height: 240px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+   #content2 {
+    
+    height: 240px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  
+
+  h1 {
+    font-weight: 400;
+    font-size: 29px;
+    margin-top: 10px;
+  }
+
+  h2 {
+    font-weight: 250;
+    font-size: 20px;
+    margin-top: -28px;
+  }
+ 
+  a {
+    font-size: 28px;
+  }
+
+  img {
+    max-height: 30vh; /* upravte podle potřeby */
+    width: auto;
+  }
+}
 
         
