@@ -28,7 +28,7 @@
 
   body {
 
-    background: linear-gradient( #63577F, #F26419 );
+    background: linear-gradient( #63577F, #F26419, #63577F );
   }
 
 
@@ -78,8 +78,8 @@
         flex-direction: column;
         align-items: center;
         border-radius: var(--main-radius);
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
         background-color: #121a1d;
       
        
