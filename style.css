@@ -283,7 +283,7 @@
    #content2 {
     
     width: auto;
-    height: 470px;
+    height: 560px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
@@ -616,7 +616,7 @@ footer {
 
   #content1 {
    
-    height: 300px;
+    height: 420px;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -644,7 +644,7 @@ footer {
   }
  
   a {
-    font-size: 26px;
+    font-size: 28px;
   }
 
   img {
@@ -654,7 +654,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 280px) {
 
   .container {
     height: 90vh;
@@ -668,7 +668,7 @@ footer {
 
   #content1, #content2 {
     width: 100%;
-    max-width: 300px;
+    max-width: 280px;
     height: auto;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -705,11 +705,11 @@ footer {
   }
  
   a {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   img {
-    max-height: 30vh; /* upravte podle potřeby */
+    max-height: 26vh; /* upravte podle potřeby */
     width: auto;
   }
 }
