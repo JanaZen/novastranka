@@ -325,7 +325,7 @@
  
  
     display:grid;
-    height: 87vh;
+    height: 84vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 0,3fr;
     grid-template-areas:
@@ -355,7 +355,7 @@
   
 }
 
-   #content2 {
+#content2 {
    
       height: 200px;
       width: auto;
@@ -363,6 +363,14 @@
     
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
+  }
+
+  footer {
+
+   width: auto;
+   height: 1rem;
+
+
   }
 
  
