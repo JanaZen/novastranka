@@ -78,9 +78,11 @@
         flex-direction: column;
         align-items: center;
         border-radius: var(--main-radius);
-        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
         border-bottom-right-radius: 0px;
         background-color: #121a1d;
+         padding-top: 0rem;
+        padding-bottom: 0rem;
       
        
      
@@ -100,6 +102,8 @@
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
         background-color: #121a1d;
+         padding-top: 0rem;
+        padding-bottom: 0rem;
         
     
         }
@@ -117,6 +121,8 @@
         border-radius: var(--main-radius);
         padding-top: var(--main-padding);
         background-color: #121a1d;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
     
         }
 
@@ -154,8 +160,8 @@ footer .janazen {
 
         img {
 
-          height: 50vh;
-          padding: 3rem;
+          height: 45vh;
+          padding-top: 8rem;
           
          }
          }
@@ -164,7 +170,7 @@ footer .janazen {
             
         img {
 
-          height: 45vh;
+          height: 30vh;
           opacity: 50%;
           
         }
@@ -206,3 +212,435 @@ footer .janazen {
      a:hover {
           color: #f78419;
         }
+
+      
+      
+      
+      
+        @media only screen and (max-width: 1400px) {
+
+          .container {
+
+            display:grid;
+            flex-direction: column;
+            height: 100vh;
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.1fr auto auto auto 0.3fr;
+            grid-template-areas:
+            "nav" 
+            "content1"
+            "content2"
+            "content3"
+            "footer";
+
+          }
+
+
+            #content1, #content2, #content3  {
+            width: 100%;
+            max-width: 1400px;
+            border-radius: var(--main-radius);
+            padding-top: var(--main-padding);
+            background-color: #121a1d;
+  }
+
+ #content1 {
+  
+  margin-top: -1rem;
+  grid-area: content2;
+  width: auto;
+  height: auto;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  }
+
+       #content1 p {
+  
+  font-size: 19px;  
+  padding-top: 0rem; 
+  padding-bottom: 0rem;
+  }
+
+   #content2 {
+    
+    grid-area: content1;
+    width: auto;
+    height: auto;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+     #content2 img {
+    height: 32vh;
+    padding-top: 0rem; 
+    padding-bottom: 0rem;
+  }
+
+  
+  #content3 {
+   
+    
+    width: auto;
+    height: auto;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    display: flex;
+  flex-wrap: wrap; /* povolí zalamování */
+  justify-content: center; /* nebo jinak podle potřeby */
+  gap: 10px; /* mezera mezi obrázky */
+
+  }
+
+   #content3 img {
+    height: 28vh;
+    padding-top: 0rem; 
+    padding-bottom: 0rem;
+    
+  }
+
+
+  
+  p {
+ 
+    font-size: 22px;
+    padding: 2rem;
+
+  }
+
+  a {
+    font-size: 19px;
+    
+  }
+
+  img {
+    max-height: 35vh; 
+    width: auto;
+    padding-top: 0;
+    
+  }
+
+ footer {
+
+
+       margin-top: -3rem;
+       grid-area: footer;
+       border-radius: var(--main-radius);
+       padding: var(--main-padding);
+       background-color: #121a1d;
+        }
+
+footer .homepage {
+  display: flex;
+  align-items: center;
+}
+footer .homepage img {
+  height: 20px;
+}
+
+footer .janazen {
+  display: flex;
+  align-items: center;
+}
+
+nav .leftgroup img {
+  height: 20px;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .container {
+            
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr auto auto auto 0.3fr;
+  grid-template-areas:
+  "nav" 
+  "content1"
+  "content2"
+  "content3"
+  "footer";
+
+  }
+
+  #content1, #content2, #content3 {
+    height: 100%;
+    max-width: 768px;
+   border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    background-color: #121a1d;
+  }
+
+
+nav {
+    
+    height: 2rem;
+    max-width: 700px; 
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0rem;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    background-color: #121a1d;
+  
+  }
+
+  .rightgroup {
+
+       display: flex;
+       margin-right: -1rem;
+       gap: 0rem;
+       padding-bottom: 6px;
+       
+
+    }
+
+      .leftgroup {
+
+      display: flex;
+      padding-bottom: 12px;       
+       
+       }
+        
+    nav .home img {
+      
+      height: 18px;
+   
+
+    }
+ 
+ #content1 {
+    
+    max-width: 750;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+   #content2 {
+    
+    width: auto;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  #content3 {
+   
+    
+    width: auto;
+    height: auto;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    display: flex;
+    flex-wrap: wrap; /* povolí zalamování */
+    justify-content: center; /* nebo jinak podle potřeby */
+    gap: 10px; /* mezera mezi obrázky */
+  }
+
+   #content3 img {
+    height: 15vh; /* uprav podle potřeby */
+    /* případně přidej opacity nebo další styly */
+  }
+
+  #content1 p {
+ 
+    font-size: 19px;
+    }
+  
+  a {
+    font-size: 14px;
+  }
+
+  img {
+    max-height: 25vh; /* upravte podle potřeby */
+    width: auto;
+    margin-top: 1rem;
+    
+  }
+
+
+   footer {
+       grid-area: footer;
+       border-radius: var(--main-radius);
+       padding: var(--main-padding);
+       background-color: #121a1d;
+        }
+
+footer .homepage {
+  display: flex;
+  align-items: center;
+}
+footer .homepage img {
+  height: 15px;
+}
+
+footer .janazen {
+  display: flex;
+  align-items: center;
+}
+
+  }
+
+
+
+
+
+
+@media only screen and (max-width: 414px) {
+
+  
+  .container {
+            
+   display:grid;
+  flex-direction: column;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr auto auto auto 0.3fr;
+  grid-template-areas:
+  "nav" 
+  "content1"
+  "content2"
+  "content3"
+  "footer";
+
+  }
+
+  #content1, #content2, #content3 {
+    height: 100%;
+    max-width: 414px;
+   border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    background-color: #121a1d;
+  }
+
+ #content1 {
+    
+    height: auto;
+    width: auto;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  #content1 p {
+  
+  width: auto;
+  height: auto;
+  font-size: 16px;  
+  padding-top: 0rem; 
+  padding-bottom: 0rem;
+  }
+
+   #content2 {
+    
+    width: auto;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  #content3 {
+   
+    
+    width: auto;
+    height: auto;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    display: flex;
+    flex-wrap: wrap; /* povolí zalamování */
+    justify-content: center; /* nebo jinak podle potřeby */
+    gap: 2px; /* mezera mezi obrázky */
+  }
+
+   #content3 img {
+    height: 14vh; /* uprav podle potřeby */
+    /* případně přidej opacity nebo další styly */
+  }
+
+nav {
+    
+  max-width: 340px; 
+  grid-area: nav;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0rem;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    background-color: #121a1d;
+  }
+
+  .rightgroup {
+    display: flex;
+    flex-wrap: nowrap; /* Zajistí zalamování odkazů */
+    justify-content: left;
+    padding-right: 15px;
+  }
+
+      .leftgroup {
+      display: flex;
+       margin-left: -2rem;
+    
+        
+      }
+
+ nav .home img {
+  height: 12px;
+}
+ 
+  p {
+ 
+    font-size: 10px;
+    padding: 1rem;
+    }
+  
+  a {
+    font-size: 10px;
+   
+  }
+
+  img {
+    max-height: 15vh; /* upravte podle potřeby */
+    width: auto;
+    margin-top: 0rem;
+    
+  }
+
+
+   footer {
+       grid-area: footer;
+       border-radius: var(--main-radius);
+       padding: var(--main-padding);
+       background-color: #121a1d;
+        }
+
+footer .homepage {
+  display: flex;
+  align-items: center;
+}
+footer .homepage img {
+  height: 15px;
+}
+
+footer .janazen {
+  display: flex;
+  align-items: center;
+}
+
+  
+
+
+
+
+
+
+}
