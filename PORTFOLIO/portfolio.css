@@ -6,68 +6,75 @@
   }
 
   body {
-  min-height: 100vh;
+  min-height: auto;
   background: linear-gradient( #63577F, #F26419 );
-  margin: 0;
-  padding: 0;
+ 
 }
 
   
 .container {
   
     display:grid;
-    height: auto;
+    height: 135vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 1fr 1fr 1fr 0.3fr;
     grid-template-areas:
     "nav"
     "content1" 
     "content2" 
-    "content3"; 
-    gap: 10px;
+    "content3"
+    "footer"; 
+    gap: 5px;
     
-   
-      
-      
+}
 
-  }
-
-
-  h1 {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-         font-size: 28px;
-        font-weight: 400;
-        color: #a5a6a2;
-          display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-  }
-
-
-#nav {
-    
+  nav {
     
     grid-area: nav;
     display: flex;
+    align-items: center;
     flex-direction: row;
-    justify-content: flex-end;
     gap: 2rem;
     padding-right: 40px;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
     background-color: #121a1d;
+  
+}
 
+    
+.rightgroup {
+
+       display: flex;
+       margin-left: auto;
 
     }
+
+.leftgroup {
+
+       display: flex;
+       margin-left: -17px;
+       img {
+       height: 30px;
+       }
+        
+      }
+
+#content1, #content2, #content3 {
+    width: 100%;
+
+    }
+
+
+
 
     #content1 {
     
     
         grid-area: content1;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
+        display: block;
+        padding-left: 20px;
         border-radius: var(--main-radius);
         padding-top: var(--main-padding);
         background-color: #121a1d;
@@ -79,11 +86,11 @@
     
     
         grid-area: content2;
-        display: flex;
-        flex-direction: row;
+       
+        flex-direction: column;
+        display: block;
         align-items: center;
         justify-content: center;
-        justify-content: flex-start;
         border-radius: var(--main-radius);
         padding-top: var(--main-padding);
       
@@ -96,69 +103,84 @@
     #content3 {
     
         grid-area: content3;
-        display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        display: block;
         align-items: center;
         justify-content: center;
-        gap: 1rem;
+        border-radius: var(--main-radius);
+        padding-top: var(--main-padding);
+        background-color: #121a1d
       
     
         }
 
 
-
-
-  .carousel-container {
-    position: relative;
-    width: 1400px; /* upravte podle potřeby */
-    height: 500px;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
-    background-color: #a7a7a7;
-   
-  }
-
-  .slides {
-    display: flex;
-     align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-    margin-left: 15px;
-    gap: 0.2rem;
-    transition: transform 0.5s ease-in-out;
-  }
-
-  .slide {
-    min-width: calc(100% / 3);
-    /* Ujistěte se, že obrázky zabírají plochu */
-  }
-
   img {
-        height: 450px;
-        display:flex;
-        flex-direction: row;
-        justify-content: center;
-  }
+        height: 350px;
+    }
+  
 
-  /* Tlačítka */
-  .prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0,0,0,0.5);
-    border: none;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 18px;
-  }
+    h1 {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-size: 28px;
+        font-weight: 400;
+        color: #a5a6a2;
+          display: flex;
+    flex-direction: row;
+    justify-content: center;
 
-  .prev {
-    left: 10px;
-  }
+    }
 
-  .next {
-    right: 10px;
-  }
+    h5 {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 400;
+      color: #a5a6a2;
+
+     }
+
+    a {
+
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        color: #a5a6a2;
+        text-decoration: none;
+        padding-left: 40px;
+        
+
+        }
+
+     
+    
+     a:hover {
+          color: #f78419;
+        }
+
+
+  
+    footer {
+       grid-area: footer;
+       height:2rem;
+       border-radius: var(--main-radius);
+       padding: var(--main-padding);
+       background-color: #121a1d;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       gap: 30px;
+
+      
+}
+
+
+footer .homepage {
+  display: flex;
+  align-items: center;
+}
+footer .homepage img {
+  height: 25px;
+}
+
+footer .janazen {
+  display: flex;
+  align-items: center;
+}
