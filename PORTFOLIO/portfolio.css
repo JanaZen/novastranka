@@ -7,7 +7,7 @@
 
   body {
   min-height: auto;
-  background: linear-gradient( #63577F, #F26419 );
+  background: linear-gradient( #63577F, #F26419, #63577F );
  
 }
 
@@ -15,7 +15,7 @@
 .container {
   
     display:grid;
-    height: 135vh;
+    height: 200vh;
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr 1fr 1fr 1fr 0.3fr;
     grid-template-areas:
@@ -74,12 +74,16 @@
         grid-area: content1;
         flex-direction: column;
         display: block;
-        padding-left: 20px;
         border-radius: var(--main-radius);
         padding-top: var(--main-padding);
         background-color: #121a1d;
       
        
+    }
+
+    content1 .img {
+
+        padding-left: 20px;
     }
 
     #content2 {
