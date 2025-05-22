@@ -559,6 +559,7 @@ footer .janazen {
     flex-wrap: wrap; /* povolí zalamování */
     justify-content: center; /* nebo jinak podle potřeby */
     gap: 2px; /* mezera mezi obrázky */
+    padding-bottom: 2rem;
   }
 
    #content3 img {
@@ -582,19 +583,21 @@ nav {
   .rightgroup {
     display: flex;
     flex-wrap: nowrap; /* Zajistí zalamování odkazů */
-    justify-content: left;
-    padding-right: 15px;
+    justify-content: center;
+   
   }
 
       .leftgroup {
       display: flex;
-       margin-left: -2rem;
+      margin-left: -2rem;
+      margin-top: 5px;
+
     
         
       }
 
  nav .home img {
-  height: 12px;
+  height: 20px;
 }
  
   p {
@@ -604,12 +607,12 @@ nav {
     }
   
   a {
-    font-size: 10px;
+    font-size: 15px;
    
   }
 
   img {
-    max-height: 15vh; /* upravte podle potřeby */
+    max-height: 20vh; /* upravte podle potřeby */
     width: auto;
     margin-top: 0rem;
     
