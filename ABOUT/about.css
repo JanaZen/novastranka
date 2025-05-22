@@ -559,7 +559,7 @@ footer .janazen {
     flex-wrap: wrap; /* povolí zalamování */
     justify-content: center; /* nebo jinak podle potřeby */
     gap: 2px; /* mezera mezi obrázky */
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
 
    #content3 img {
@@ -590,14 +590,14 @@ nav {
       .leftgroup {
       display: flex;
       margin-left: -2rem;
-      margin-top: 5px;
+      margin-top: 6px;
 
     
         
       }
 
  nav .home img {
-  height: 20px;
+  height: 16px;
 }
  
   p {
@@ -624,6 +624,7 @@ nav {
        border-radius: var(--main-radius);
        padding: var(--main-padding);
        background-color: #121a1d;
+       padding-top: 2rem;
         }
 
 footer .homepage {
@@ -631,12 +632,13 @@ footer .homepage {
   align-items: center;
 }
 footer .homepage img {
-  height: 15px;
+  height: 16px;
 }
 
 footer .janazen {
   display: flex;
   align-items: center;
+  padding-right: 7px;
 }
 
   
